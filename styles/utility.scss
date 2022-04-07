@@ -1,0 +1,8 @@
+@use "tokens";
+
+.bg-primary {
+    background-color: tokens.$primary;
+}
+.bg-danger {
+    background-color: tokens.$danger;
+}
