@@ -25,10 +25,6 @@ export default function Home({ allPostsData }) {
         <p>
           Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
         </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
       </section>
       <section>
         <h2>Blog</h2>
