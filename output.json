@@ -10,5 +10,10 @@
   "danger": {
     "value": "#FF564E",
     "type": "color"
+  },
+  "secondary": {
+    "value": "#07256C",
+    "type": "color",
+    "description": "#07256C"
   }
 }

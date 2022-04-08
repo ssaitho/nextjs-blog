@@ -1,13 +1,15 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 07 Apr 2022 08:30:17 GMT
+ * Generated on Fri, 08 Apr 2022 07:48:44 GMT
  */
 
+$secondary: #07256C !default;
 $danger: #FF564E !default;
 $primary: #0061FF !default;
 
 $css-tokens: (
   'primary': $primary,
-  'danger': $danger
+  'danger': $danger,
+  'secondary': $secondary
 );

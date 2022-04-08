@@ -7,8 +7,10 @@ on:
     types: [closed]
 
 jobs:
-  print-hello-world:
+  token-transformer:
     runs-on: ubuntu-latest
     steps:
-      - name: execute echo command
-        run: echo "Hello World!"
+      - name: token-toransformer
+        run: |
+          ./node_modules/.bin/token-transformer tokens.json output.json
+          style-dictionary build --config style-dictionary.config.json
