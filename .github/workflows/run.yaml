@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: token-toransformer
         run: |
-          ./node_modules/.bin/token-transformer tokens.json output.json
+          node token-transformer tokens.json output.json
           style-dictionary build --config style-dictionary.config.json
