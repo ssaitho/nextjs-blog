@@ -1,14 +1,10 @@
-import Layout from '../../components/layout'
+import Layout from '../../layout/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
-import Head from 'next/head'
 import Date from '../../components/date'
 
 export default function Post({ postData }) {
   return (
-    <Layout>
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
+    <Layout home={false}>
       <article>
         <h1>{postData.title}</h1>
           <div>
