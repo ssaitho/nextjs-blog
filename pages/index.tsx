@@ -1,4 +1,4 @@
-import Layout from '../layout/Layout'
+import Layout from '../layout/layout'
 import { getSortedPostsData } from '../lib/posts'
 import { useEffect, useRef, useState } from "react";
 import Link from 'next/link'

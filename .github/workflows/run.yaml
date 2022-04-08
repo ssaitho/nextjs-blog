@@ -1,0 +1,14 @@
+name: next-blog-github-actions
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute echo command
+        run: echo "Hello World!"
