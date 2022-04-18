@@ -1,0 +1,27 @@
+{
+  "primary": {
+    "value": "#0061FF",
+    "type": "color",
+    "hover": {
+      "value": "#0044B2",
+      "type": "color"
+    }
+  },
+  "danger": {
+    "value": "#FF564E",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#07256C",
+    "type": "color",
+    "description": "#07256C",
+    "hover": {
+      "value": "#041640",
+      "type": "color"
+    }
+  },
+  "success": {
+    "value": "#004D3C",
+    "type": "color"
+  }
+}
