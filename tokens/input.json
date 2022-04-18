@@ -48,8 +48,12 @@
     "value": "#657854",
     "type": "color"
   },
-  "test07": {
-    "value": "#444444",
+  "aaa": {
+    "value": "#222222",
+    "type": "color"
+  },
+  "bbb": {
+    "value": "#456784",
     "type": "color"
   }
 }
