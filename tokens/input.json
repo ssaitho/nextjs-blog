@@ -23,5 +23,13 @@
   "success": {
     "value": "#004D3C",
     "type": "color"
+  },
+  "test": {
+    "value": "#123456",
+    "type": "color"
+  },
+  "test02": {
+    "value": "#132456",
+    "type": "color"
   }
 }
