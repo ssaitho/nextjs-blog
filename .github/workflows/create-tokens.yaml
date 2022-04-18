@@ -1,9 +1,16 @@
 name: CI
 # on: [push]
+
+# on:
+#   push:
+#     branches:
+#       - add_tokens
+
 on:
-  push:
+  pull_request:
     branches:
-      - add_tokens
+      - main
+    types: [closed]
 
 jobs:
   build:
