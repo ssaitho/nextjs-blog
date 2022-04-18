@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
                 <Image src="/images/prof_min.jpg" width={100} height={100} className='rounded-full' />
               </figure>
               <div className='ml-6'>
-                <h2 className='font-bold text-3xl mb-2'>Shinsuke Saito blog</h2>
+                <h2 className='font-bold text-3xl mb-2'>Shinsuke Saito blogs</h2>
                 <p>
                   Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
                 </p>
