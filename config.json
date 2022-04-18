@@ -5,8 +5,8 @@
       "transformGroup": "css",
       "files": [
         {
-          "destination": "styles/tokens.css",
-          "format": "styles/tokens"
+          "destination": "css/variables.css",
+          "format": "css/variables"
         }
       ]
     }
