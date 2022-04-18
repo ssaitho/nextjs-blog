@@ -55,5 +55,9 @@
   "bbb": {
     "value": "#456784",
     "type": "color"
+  },
+  "ccc": {
+    "value": "#909876",
+    "type": "color"
   }
 }
