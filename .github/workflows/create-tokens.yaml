@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    braches: [add_tokens]
+    braches: [ add_tokens ]
 
 jobs:
   build:
