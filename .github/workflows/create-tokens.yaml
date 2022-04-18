@@ -6,6 +6,12 @@ name: CI
 #     branches:
 #       - add_tokens
 
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     types: [closed]
+
 on:
   pull_request:
     branches:
