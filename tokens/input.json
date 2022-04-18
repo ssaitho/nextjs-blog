@@ -63,5 +63,17 @@
   "dddd": {
     "value": "#899777",
     "type": "color"
+  },
+  "eee": {
+    "value": "#086543",
+    "type": "color"
+  },
+  "ffff": {
+    "value": "#456234",
+    "type": "color"
+  },
+  "ggg": {
+    "value": "#232908",
+    "type": "color"
   }
 }
