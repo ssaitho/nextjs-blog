@@ -1,8 +1,5 @@
 name: CI
-on:
-  push:
-    branches:
-      - add_tokens
+on: [push]
 
 jobs:
   build:
