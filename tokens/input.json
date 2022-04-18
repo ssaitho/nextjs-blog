@@ -59,5 +59,9 @@
   "ccc": {
     "value": "#909876",
     "type": "color"
+  },
+  "dddd": {
+    "value": "#899777",
+    "type": "color"
   }
 }
