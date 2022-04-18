@@ -71,5 +71,9 @@
   "ffff": {
     "value": "#456234",
     "type": "color"
+  },
+  "ggg": {
+    "value": "#232908",
+    "type": "color"
   }
 }
