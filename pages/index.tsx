@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
           </div>
         </section>
         <section>
-        <div className='rounded-lg shadow-lg bg-danger'>
+        <div className='bg-danger rounded-lg shadow-lg'>
           <div className='p-6'>
             <h2 className='font-bold text-3xl'>Blog</h2>
               <ul>
