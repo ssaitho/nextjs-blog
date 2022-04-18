@@ -1,19 +1,14 @@
 {
-  "primary": {
-    "value": "#0061FF",
-    "type": "color",
-    "hover": {
-      "value": "#0044B2",
-      "type": "color"
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "destination": "css/variables.css",
+          "format": "css/variables"
+        }
+      ]
     }
-  },
-  "danger": {
-    "value": "#FF564E",
-    "type": "color"
-  },
-  "secondary": {
-    "value": "#07256C",
-    "type": "color",
-    "description": "#07256C"
   }
 }
