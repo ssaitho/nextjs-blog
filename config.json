@@ -2,10 +2,10 @@
   "source": ["tokens/**/*.json"],
   "platforms": {
     "css": {
-      "transformGroup": "scss",
+      "transformGroup": "css",
       "files": [
         {
-          "destination": "styles/tokens.scss",
+          "destination": "styles/tokens.css",
           "format": "styles/tokens"
         }
       ]
