@@ -1,8 +1,8 @@
 @use "tokens";
 
 .bg-primary {
-    background-color: tokens.$primary;
+    background-color: var(--primary);
 }
 .bg-danger {
-    background-color: tokens.$danger;
+    background-color: var(--danger);
 }
