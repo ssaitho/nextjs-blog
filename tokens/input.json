@@ -35,37 +35,5 @@
   "test03": {
     "value": "#989768",
     "type": "color"
-  },
-  "test04": {
-    "value": "#659876",
-    "type": "color"
-  },
-  "test05": {
-    "value": "#124350",
-    "type": "color"
-  },
-  "test06": {
-    "value": "#657854",
-    "type": "color"
-  },
-  "aaa": {
-    "value": "#222222",
-    "type": "color"
-  },
-  "bbb": {
-    "value": "#456784",
-    "type": "color"
-  },
-  "ccc": {
-    "value": "#909876",
-    "type": "color"
-  },
-  "dddd": {
-    "value": "#899777",
-    "type": "color"
-  },
-  "eee": {
-    "value": "#086543",
-    "type": "color"
   }
 }
