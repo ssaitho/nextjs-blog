@@ -5,7 +5,7 @@
       "buildPath": "styles/",
       "transformGroup": "scss",
       "files": [{
-        "destination": "tokens.scss",
+        "destination": "tailwind.config.js",
         "format": "scss/map-deep",
         "mapName":"css-tokens",
         "options": {
