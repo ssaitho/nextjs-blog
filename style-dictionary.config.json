@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "buildPath": "styles/",
-      "transformGroup": "scss",
+      "transformGroup": "js",
       "files": [{
         "destination": "tailwind.config.js",
         "format": "scss/map-deep",
