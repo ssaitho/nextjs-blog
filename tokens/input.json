@@ -39,5 +39,9 @@
   "hogehogehogehoge": {
     "value": "#777777",
     "type": "color"
+  },
+  "fungafunga": {
+    "value": "#444444",
+    "type": "color"
   }
 }
