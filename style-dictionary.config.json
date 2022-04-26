@@ -1,13 +1,13 @@
 {
   "source": ["output.json"],
   "platforms": {
-    "scss": {
-      "buildPath": "styles/",
+    "js": {
+      "buildPath": "tokens/",
       "transformGroup": "js",
       "files": [{
-        "destination": "tailwind.config.js",
-        "format": "scss/map-deep",
-        "mapName":"css-tokens",
+        "destination": "tokens.js",
+        "format": "javascript/es6",
+        "mapName":"js-tokens",
         "options": {
           "outputReferences": true
         }
