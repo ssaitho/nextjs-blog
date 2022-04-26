@@ -27,5 +27,9 @@
   "fffffff": {
     "value": "#ffffff",
     "type": "color"
+  },
+  "hhhhhh": {
+    "value": "#123456",
+    "type": "color"
   }
 }
