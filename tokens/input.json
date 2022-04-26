@@ -20,16 +20,12 @@
       "type": "color"
     }
   },
-  "success": {
-    "value": "#004D3C",
+  "tttttt": {
+    "value": "#434343",
     "type": "color"
   },
-  "test": {
-    "value": "#123456",
-    "type": "color"
-  },
-  "test02": {
-    "value": "#132456",
+  "fffffff": {
+    "value": "#ffffff",
     "type": "color"
   }
 }
