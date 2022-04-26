@@ -7,7 +7,6 @@
       "files": [{
         "destination": "tokens.js",
         "format": "javascript/es6",
-        "mapName":"css-tokens",
         "options": {
           "outputReferences": true
         }
