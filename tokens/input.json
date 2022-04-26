@@ -31,5 +31,9 @@
   "hhhhhh": {
     "value": "#123456",
     "type": "color"
+  },
+  "ggggggg": {
+    "value": "#098788",
+    "type": "color"
   }
 }
