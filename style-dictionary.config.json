@@ -1,12 +1,12 @@
 {
   "source": ["output.json"],
   "platforms": {
-    "scss": {
+    "js": {
       "buildPath": "styles/",
-      "transformGroup": "scss",
+      "transformGroup": "js",
       "files": [{
-        "destination": "tokens.scss",
-        "format": "scss/map-deep",
+        "destination": "tokens.js",
+        "format": "javascript/es6",
         "mapName":"css-tokens",
         "options": {
           "outputReferences": true
