@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 07:39:37 GMT
+ * Generated on Wed, 27 Apr 2022 08:46:28 GMT
  */
 
 module.exports = {
@@ -124,6 +124,27 @@ module.exports = {
       "path": [
         "color",
         "fugafuga"
+      ]
+    }
+  },
+  "size": {
+    "test12": {
+      "value": "12rem",
+      "type": "sizing",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": 12,
+        "type": "sizing"
+      },
+      "name": "SizeTest12",
+      "attributes": {
+        "category": "size",
+        "type": "test12"
+      },
+      "path": [
+        "size",
+        "test12"
       ]
     }
   }

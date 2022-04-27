@@ -29,5 +29,11 @@
       "value": "#FF1493",
       "type": "color"
     }
+  },
+  "size": {
+    "test12": {
+      "value": 12,
+      "type": "sizing"
+    }
   }
 }
