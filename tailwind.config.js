@@ -1,3 +1,12 @@
+const kebabcase = require('lodash.kebabcase');
+const tokens = require('./javascript/tokens');
+
+const colors = Object.fromEntries(Object
+  .values(tokens.color)
+  .map(({ attributes, value }) => [
+    kebabcase(attributes.type), value
+  ]));
+
 module.exports = {
   mode: "jit",
   purge: [
@@ -8,7 +17,9 @@ module.exports = {
   ],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors,
+    },
   },
   plugins: [],
 }
