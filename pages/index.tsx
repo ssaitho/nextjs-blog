@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
               </figure>
               <div className='ml-6'>
                 <h2 className='font-bold text-3xl mb-2'>Shinsuke Saito blogs test</h2>
-                <p>
+                <p className='text-testtest-700 bg-testtest-100'>
                   Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
                 </p>
               </div>

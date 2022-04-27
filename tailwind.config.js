@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: "jit",
   purge: [
@@ -8,7 +10,11 @@ module.exports = {
   ],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'testtest': colors.teal
+      },
+    },
   },
   plugins: [],
 }
