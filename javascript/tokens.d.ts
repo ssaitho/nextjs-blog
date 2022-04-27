@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 08:46:28 GMT
+ * Generated on Wed, 27 Apr 2022 09:07:28 GMT
  */
 
 export default tokens;
@@ -30,6 +30,6 @@ declare const tokens: {
     "fugafuga": DesignToken
   },
   "size": {
-    "test12": DesignToken
+    "test2rem": DesignToken
   }
 }
