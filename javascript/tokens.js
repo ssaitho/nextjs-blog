@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 08:46:28 GMT
+ * Generated on Wed, 27 Apr 2022 09:07:28 GMT
  */
 
 module.exports = {
@@ -128,23 +128,23 @@ module.exports = {
     }
   },
   "size": {
-    "test12": {
-      "value": "12rem",
+    "test2rem": {
+      "value": "2rem",
       "type": "sizing",
       "filePath": "tokens/input.json",
       "isSource": true,
       "original": {
-        "value": 12,
+        "value": 2,
         "type": "sizing"
       },
-      "name": "SizeTest12",
+      "name": "SizeTest2rem",
       "attributes": {
         "category": "size",
-        "type": "test12"
+        "type": "test2rem"
       },
       "path": [
         "size",
-        "test12"
+        "test2rem"
       ]
     }
   }
