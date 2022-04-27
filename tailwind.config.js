@@ -1,4 +1,13 @@
-const colors = require('tailwindcss/colors');
+const kebabcase = require('lodash.kebabcase');
+const tokens = require('./javascript/tokens');
+
+const colors = Object.fromEntries(Object
+  .values(tokens.color)
+  .map(({ attributes, value }) => [
+    kebabcase(attributes.type), value
+  ])
+);
+
 
 module.exports = {
   mode: "jit",
@@ -11,9 +20,7 @@ module.exports = {
   content: [],
   theme: {
     extend: {
-      colors: {
-        'testtest': colors.teal
-      },
+      colors,
     },
   },
   plugins: [],
