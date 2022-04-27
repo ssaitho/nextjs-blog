@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 26 Apr 2022 10:32:37 GMT
+ * Generated on Wed, 27 Apr 2022 05:44:25 GMT
  */
 
 export default tokens;
@@ -22,15 +22,9 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
-  "primary": DesignToken,
-  "danger": DesignToken,
-  "secondary": DesignToken,
-  "tttttt": DesignToken,
-  "fffffff": DesignToken,
-  "hhhhhh": DesignToken,
-  "ggggggg": DesignToken,
-  "hogehogehogehoge": DesignToken,
-  "fungafunga": DesignToken,
-  "uuuuuuuuooo": DesignToken,
-  "kokokokoko": DesignToken
+  "color": {
+    "primary": DesignToken,
+    "danger": DesignToken,
+    "secondary": DesignToken
+  }
 }
