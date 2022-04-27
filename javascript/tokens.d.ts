@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 05:44:25 GMT
+ * Generated on Wed, 27 Apr 2022 07:39:37 GMT
  */
 
 export default tokens;
@@ -25,6 +25,8 @@ declare const tokens: {
   "color": {
     "primary": DesignToken,
     "danger": DesignToken,
-    "secondary": DesignToken
+    "secondary": DesignToken,
+    "hogehoge": DesignToken,
+    "fugafuga": DesignToken
   }
 }

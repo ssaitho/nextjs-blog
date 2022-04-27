@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 05:44:25 GMT
+ * Generated on Wed, 27 Apr 2022 07:39:37 GMT
  */
 
 module.exports = {
@@ -86,6 +86,44 @@ module.exports = {
       "path": [
         "color",
         "secondary"
+      ]
+    },
+    "hogehoge": {
+      "value": "#ff00ff",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF00FF",
+        "type": "color"
+      },
+      "name": "ColorHogehoge",
+      "attributes": {
+        "category": "color",
+        "type": "hogehoge"
+      },
+      "path": [
+        "color",
+        "hogehoge"
+      ]
+    },
+    "fugafuga": {
+      "value": "#ff1493",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF1493",
+        "type": "color"
+      },
+      "name": "ColorFugafuga",
+      "attributes": {
+        "category": "color",
+        "type": "fugafuga"
+      },
+      "path": [
+        "color",
+        "fugafuga"
       ]
     }
   }
