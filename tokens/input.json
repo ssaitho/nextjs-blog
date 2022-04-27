@@ -20,6 +20,14 @@
         "value": "#041640",
         "type": "color"
       }
+    },
+    "hogehoge": {
+      "value": "#FF00FF",
+      "type": "color"
+    },
+    "fugafuga": {
+      "value": "#FF1493",
+      "type": "color"
     }
   }
 }
