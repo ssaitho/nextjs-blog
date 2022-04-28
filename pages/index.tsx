@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from 'next/link'
 import Image from "next/image";
 import Date from '../components/date'
+import component from '@ssaitho/react_ts_storybook';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -48,6 +49,10 @@ export default function Home({ allPostsData }) {
                 <p className='text-test-2-rem'>
                   font-size-12rem
                 </p>
+                <p>
+                  font-size-12rem
+                </p>
+                <component.Button label={"npmからインポートしたボタン"} />
               </div>
             </div>
           </div>
