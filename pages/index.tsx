@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
                 <p className='text-test-2-rem'>
                   font-size-12rem
                 </p>
-                <p>
+                <p className=''>
                   font-size-12rem
                 </p>
                 <component.Button label={"npmからインポートしたボタン"} />
