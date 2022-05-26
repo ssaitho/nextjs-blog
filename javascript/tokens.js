@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 09:07:28 GMT
+ * Generated on Thu, 26 May 2022 07:51:17 GMT
  */
 
 module.exports = {
@@ -124,6 +124,63 @@ module.exports = {
       "path": [
         "color",
         "fugafuga"
+      ]
+    },
+    "hoge-fuga": {
+      "value": "#00bfff",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#00BFFF",
+        "type": "color"
+      },
+      "name": "ColorHogeFuga",
+      "attributes": {
+        "category": "color",
+        "type": "hoge-fuga"
+      },
+      "path": [
+        "color",
+        "hoge-fuga"
+      ]
+    },
+    "hoge_fuga": {
+      "value": "#800080",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#800080",
+        "type": "color"
+      },
+      "name": "ColorHogeFuga",
+      "attributes": {
+        "category": "color",
+        "type": "hoge_fuga"
+      },
+      "path": [
+        "color",
+        "hoge_fuga"
+      ]
+    },
+    "sandFuga": {
+      "value": "#f4a460",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#F4A460",
+        "type": "color"
+      },
+      "name": "ColorSandFuga",
+      "attributes": {
+        "category": "color",
+        "type": "sandFuga"
+      },
+      "path": [
+        "color",
+        "sandFuga"
       ]
     }
   },

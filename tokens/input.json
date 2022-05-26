@@ -28,6 +28,18 @@
     "fugafuga": {
       "value": "#FF1493",
       "type": "color"
+    },
+    "hoge-fuga": {
+      "value": "#00BFFF",
+      "type": "color"
+    },
+    "hoge_fuga": {
+      "value": "#800080",
+      "type": "color"
+    },
+    "sandFuga": {
+      "value": "#F4A460",
+      "type": "color"
     }
   },
   "size": {
