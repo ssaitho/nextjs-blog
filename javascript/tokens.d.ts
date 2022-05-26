@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Apr 2022 09:07:28 GMT
+ * Generated on Thu, 26 May 2022 07:51:17 GMT
  */
 
 export default tokens;
@@ -27,7 +27,10 @@ declare const tokens: {
     "danger": DesignToken,
     "secondary": DesignToken,
     "hogehoge": DesignToken,
-    "fugafuga": DesignToken
+    "fugafuga": DesignToken,
+    "hoge-fuga": DesignToken,
+    "hoge_fuga": DesignToken,
+    "sandFuga": DesignToken
   },
   "size": {
     "test2rem": DesignToken
