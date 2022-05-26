@@ -8,6 +8,16 @@ const colors = Object.fromEntries(Object
   ])
 );
 
+console.log(colors);
+
+const fontSize = Object.fromEntries(Object
+  .values(tokens.size)
+  .map(({ attributes, value }) => [
+    kebabcase(attributes.type), value
+  ])
+);
+
+console.log(fontSize);
 
 module.exports = {
   mode: "jit",
@@ -21,6 +31,7 @@ module.exports = {
   theme: {
     extend: {
       colors,
+      fontSize,
     },
   },
   plugins: [],

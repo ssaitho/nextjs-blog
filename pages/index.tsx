@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from 'next/link'
 import Image from "next/image";
 import Date from '../components/date'
+import component from '@ssaitho/react_ts_storybook';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -27,23 +28,39 @@ export default function Home({ allPostsData }) {
               </figure>
               <div className='ml-6'>
                 <h2 className='font-bold text-3xl mb-2'>Shinsuke Saito blogs test</h2>
-                <p className='bg-primary'>
+                <p className=''>
                   Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
+                </p>
+                <p className='bg-primary'>
+                  primary
                 </p>
                 <p className='bg-danger'>
-                  Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
+                  danger
                 </p>
-                <p className='bg-secondary text-danger'>
-                  Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
+                <p className='bg-secondary'>
+                  secondary
                 </p>
+                <p className='bg-hogehoge'>
+                  hogehoge
+                </p>
+                <p className='bg-fugafuga'>
+                  fugafuga
+                </p>
+                <p className='text-test-2-rem'>
+                  font-size-12rem
+                </p>
+                <component.Button label={"npmからインポートしたボタン"} />
+                <component.Modal
+                  label={"npmからインポートしたモーダル"}
+                />
               </div>
             </div>
           </div>
         </section>
-        <section>
-        <div className='bg-danger rounded-lg shadow-lg'>
-          <div className='p-6'>
-            <h2 className='font-bold text-3xl'>Blog</h2>
+        <section className='mb-8'>
+          <div className='bg-white rounded-lg shadow-lg'>
+            <div className='p-6'>
+              <h2 className='font-bold text-3xl'>Blog</h2>
               <ul>
                 {allPostsData.map(({ id, date, title }) => (
                   <li key={id} className='mt-4'>
@@ -60,6 +77,7 @@ export default function Home({ allPostsData }) {
             </div>
           </div>
         </section>
+        <component.Card />
       </div>
     </Layout>
   )
