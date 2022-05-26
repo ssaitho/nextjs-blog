@@ -44,6 +44,10 @@
     "lime300": {
       "value": "#00FF00",
       "type": "color"
+    },
+    "red-200": {
+      "value": "#FFD700",
+      "type": "color"
     }
   },
   "size": {

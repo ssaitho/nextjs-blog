@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 May 2022 07:56:10 GMT
+ * Generated on Thu, 26 May 2022 07:59:50 GMT
  */
 
 module.exports = {
@@ -200,6 +200,25 @@ module.exports = {
       "path": [
         "color",
         "lime300"
+      ]
+    },
+    "red-200": {
+      "value": "#ffd700",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFD700",
+        "type": "color"
+      },
+      "name": "ColorRed200",
+      "attributes": {
+        "category": "color",
+        "type": "red-200"
+      },
+      "path": [
+        "color",
+        "red-200"
       ]
     }
   },
