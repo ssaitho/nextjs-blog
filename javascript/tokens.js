@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 May 2022 07:51:17 GMT
+ * Generated on Thu, 26 May 2022 07:56:10 GMT
  */
 
 module.exports = {
@@ -181,6 +181,25 @@ module.exports = {
       "path": [
         "color",
         "sandFuga"
+      ]
+    },
+    "lime300": {
+      "value": "#00ff00",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#00FF00",
+        "type": "color"
+      },
+      "name": "ColorLime300",
+      "attributes": {
+        "category": "color",
+        "type": "lime300"
+      },
+      "path": [
+        "color",
+        "lime300"
       ]
     }
   },
