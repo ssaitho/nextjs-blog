@@ -50,14 +50,17 @@ export default function Home({ allPostsData }) {
                   font-size-12rem
                 </p>
                 <component.Button label={"npmからインポートしたボタン"} />
+                <component.Modal
+                  label={"npmからインポートしたモーダル"}
+                />
               </div>
             </div>
           </div>
         </section>
-        <section>
-        <div className='bg-white rounded-lg shadow-lg'>
-          <div className='p-6'>
-            <h2 className='font-bold text-3xl'>Blog</h2>
+        <section className='mb-8'>
+          <div className='bg-white rounded-lg shadow-lg'>
+            <div className='p-6'>
+              <h2 className='font-bold text-3xl'>Blog</h2>
               <ul>
                 {allPostsData.map(({ id, date, title }) => (
                   <li key={id} className='mt-4'>
@@ -74,6 +77,7 @@ export default function Home({ allPostsData }) {
             </div>
           </div>
         </section>
+        <component.Card />
       </div>
     </Layout>
   )
