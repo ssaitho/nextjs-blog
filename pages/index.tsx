@@ -19,66 +19,36 @@ export default function Home({ allPostsData }) {
 
   return (
     <Layout home>
-      <div className='mt-8 mb-8 px-4 mx-auto w-full max-w-5xl'>
-        <section className='mb-8'>
-          <div className='bg-white rounded-lg shadow-lg'>
-            <div className='p-6 flex items-center'>
-              <figure className=''>
-                <Image src="/images/prof_min.jpg" width={100} height={100} className='rounded-full' />
-              </figure>
-              <div className='ml-6'>
-                <h2 className='font-bold text-3xl mb-2'>Shinsuke Saito blogs test</h2>
-                <p className=''>
-                  Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
-                </p>
-                <p className='bg-primary'>
-                  primary
-                </p>
-                <p className='bg-danger'>
-                  danger
-                </p>
-                <p className='bg-secondary'>
-                  secondary
-                </p>
-                <p className='bg-hogehoge'>
-                  hogehoge
-                </p>
-                <p className='bg-fugafuga'>
-                  fugafuga
-                </p>
-                <p className='text-test-2-rem'>
-                  font-size-12rem
-                </p>
-                <component.Button label={"npmからインポートしたボタン"} />
-                <component.Modal
-                  label={"npmからインポートしたモーダル"}
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className='mb-8'>
-          <div className='bg-white rounded-lg shadow-lg'>
-            <div className='p-6'>
-              <h2 className='font-bold text-3xl'>Blog</h2>
-              <ul>
-                {allPostsData.map(({ id, date, title }) => (
-                  <li key={id} className='mt-4'>
-                    <Link href={`/posts/${id}`}>
-                      <a>{title}</a>
-                    </Link>
-                    <br />
-                    <small>
-                      <Date dateString={date} />
-                    </small>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-        <component.Card />
-      </div>
+      <section>
+        <figure>
+          <Image src="/images/prof_min.jpg" width={100} height={100} />
+        </figure>
+        <h2>Shinsuke Saito blogs test</h2>
+        <p className=''>
+          Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
+        </p>
+      </section>
+      <section className='mb-8'>
+        <h2>Blog</h2>
+        <ul>
+          {allPostsData.map(({ id, date, title }) => (
+            <li key={id} className='mt-4'>
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small>
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
+        </ul>
+      </section>
+      <component.Card />
+      <component.Button label={"npmからインポートしたボタン"} />
+      <component.Modal
+        label={"npmからインポートしたモーダル"}
+      />
     </Layout>
   )
 }
