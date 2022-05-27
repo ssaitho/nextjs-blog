@@ -1,59 +1,50 @@
 {
-  "color": {
-    "primary": {
-      "value": "#0061FF",
-      "type": "color",
-      "hover": {
-        "value": "#0044B2",
-        "type": "color"
-      }
-    },
-    "danger": {
-      "value": "#ffa7a1",
+  "theme": {
+    "bg": {
+      "value": "#ffefec",
       "type": "color"
     },
-    "secondary": {
-      "value": "#07256C",
-      "type": "color",
-      "description": "#07256C",
-      "hover": {
-        "value": "#041640",
-        "type": "color"
-      }
-    },
-    "hogehoge": {
-      "value": "#FF00FF",
-      "type": "color"
-    },
-    "fugafuga": {
-      "value": "#FF1493",
-      "type": "color"
-    },
-    "hoge-fuga": {
-      "value": "#00BFFF",
-      "type": "color"
-    },
-    "hoge_fuga": {
-      "value": "#800080",
-      "type": "color"
-    },
-    "sandFuga": {
-      "value": "#F4A460",
-      "type": "color"
-    },
-    "lime300": {
-      "value": "#00FF00",
-      "type": "color"
-    },
-    "red-200": {
-      "value": "#FFD700",
+    "fg": {
+      "value": "#1934d1",
       "type": "color"
     }
   },
-  "size": {
-    "test2rem": {
-      "value": 2,
-      "type": "sizing"
+  "color": {
+    "ecforce-blue": {
+      "value": "#1934d1",
+      "type": "color"
+    },
+    "red-900": {
+      "value": "#b23c37",
+      "type": "color"
+    },
+    "red-700": {
+      "value": "#ff564e",
+      "type": "color"
+    },
+    "red-500": {
+      "value": "#ffafa2",
+      "type": "color"
+    },
+    "red-300": {
+      "value": "#ffefec",
+      "type": "color"
+    },
+    "blue-900": {
+      "value": "#0044b2",
+      "type": "color"
+    },
+    "blue-700": {
+      "value": "#0062ff",
+      "type": "color"
+    },
+    "blue-500": {
+      "value": "#b4d0e7",
+      "type": "color"
+    },
+    "blue-300": {
+      "value": "#e4ecf3",
+      "type": "color"
     }
   }
 }

@@ -1,245 +1,219 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 May 2022 07:59:50 GMT
+ * Generated on Fri, 27 May 2022 07:17:33 GMT
  */
 
 module.exports = {
-  "color": {
-    "primary": {
-      "value": "#0061ff",
-      "type": "color",
-      "hover": {
-        "value": "#0044B2",
-        "type": "color",
-        "filePath": "tokens/input.json",
-        "isSource": true
-      },
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#0061FF",
-        "type": "color",
-        "hover": {
-          "value": "#0044B2",
-          "type": "color",
-          "filePath": "tokens/input.json",
-          "isSource": true
-        }
-      },
-      "name": "ColorPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "primary"
-      },
-      "path": [
-        "color",
-        "primary"
-      ]
-    },
-    "danger": {
-      "value": "#ffa7a1",
+  "theme": {
+    "bg": {
+      "value": "#ffefec",
       "type": "color",
       "filePath": "tokens/input.json",
       "isSource": true,
       "original": {
-        "value": "#ffa7a1",
+        "value": "#ffefec",
         "type": "color"
       },
-      "name": "ColorDanger",
+      "name": "ThemeBg",
       "attributes": {
-        "category": "color",
-        "type": "danger"
+        "category": "theme",
+        "type": "bg"
       },
       "path": [
-        "color",
-        "danger"
+        "theme",
+        "bg"
       ]
     },
-    "secondary": {
-      "value": "#07256c",
-      "type": "color",
-      "description": "#07256C",
-      "hover": {
-        "value": "#041640",
-        "type": "color",
-        "filePath": "tokens/input.json",
-        "isSource": true
-      },
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#07256C",
-        "type": "color",
-        "description": "#07256C",
-        "hover": {
-          "value": "#041640",
-          "type": "color",
-          "filePath": "tokens/input.json",
-          "isSource": true
-        }
-      },
-      "name": "ColorSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "secondary"
-      },
-      "path": [
-        "color",
-        "secondary"
-      ]
-    },
-    "hogehoge": {
-      "value": "#ff00ff",
+    "fg": {
+      "value": "#1934d1",
       "type": "color",
       "filePath": "tokens/input.json",
       "isSource": true,
       "original": {
-        "value": "#FF00FF",
+        "value": "#1934d1",
         "type": "color"
       },
-      "name": "ColorHogehoge",
+      "name": "ThemeFg",
       "attributes": {
-        "category": "color",
-        "type": "hogehoge"
+        "category": "theme",
+        "type": "fg"
       },
       "path": [
-        "color",
-        "hogehoge"
-      ]
-    },
-    "fugafuga": {
-      "value": "#ff1493",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#FF1493",
-        "type": "color"
-      },
-      "name": "ColorFugafuga",
-      "attributes": {
-        "category": "color",
-        "type": "fugafuga"
-      },
-      "path": [
-        "color",
-        "fugafuga"
-      ]
-    },
-    "hoge-fuga": {
-      "value": "#00bfff",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#00BFFF",
-        "type": "color"
-      },
-      "name": "ColorHogeFuga",
-      "attributes": {
-        "category": "color",
-        "type": "hoge-fuga"
-      },
-      "path": [
-        "color",
-        "hoge-fuga"
-      ]
-    },
-    "hoge_fuga": {
-      "value": "#800080",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#800080",
-        "type": "color"
-      },
-      "name": "ColorHogeFuga",
-      "attributes": {
-        "category": "color",
-        "type": "hoge_fuga"
-      },
-      "path": [
-        "color",
-        "hoge_fuga"
-      ]
-    },
-    "sandFuga": {
-      "value": "#f4a460",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#F4A460",
-        "type": "color"
-      },
-      "name": "ColorSandFuga",
-      "attributes": {
-        "category": "color",
-        "type": "sandFuga"
-      },
-      "path": [
-        "color",
-        "sandFuga"
-      ]
-    },
-    "lime300": {
-      "value": "#00ff00",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#00FF00",
-        "type": "color"
-      },
-      "name": "ColorLime300",
-      "attributes": {
-        "category": "color",
-        "type": "lime300"
-      },
-      "path": [
-        "color",
-        "lime300"
-      ]
-    },
-    "red-200": {
-      "value": "#ffd700",
-      "type": "color",
-      "filePath": "tokens/input.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFD700",
-        "type": "color"
-      },
-      "name": "ColorRed200",
-      "attributes": {
-        "category": "color",
-        "type": "red-200"
-      },
-      "path": [
-        "color",
-        "red-200"
+        "theme",
+        "fg"
       ]
     }
   },
-  "size": {
-    "test2rem": {
-      "value": "2rem",
-      "type": "sizing",
+  "color": {
+    "ecforce-blue": {
+      "value": "#1934d1",
+      "type": "color",
       "filePath": "tokens/input.json",
       "isSource": true,
       "original": {
-        "value": 2,
-        "type": "sizing"
+        "value": "#1934d1",
+        "type": "color"
       },
-      "name": "SizeTest2rem",
+      "name": "ColorEcforceBlue",
       "attributes": {
-        "category": "size",
-        "type": "test2rem"
+        "category": "color",
+        "type": "ecforce-blue"
       },
       "path": [
-        "size",
-        "test2rem"
+        "color",
+        "ecforce-blue"
+      ]
+    },
+    "red-900": {
+      "value": "#b23c37",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#b23c37",
+        "type": "color"
+      },
+      "name": "ColorRed900",
+      "attributes": {
+        "category": "color",
+        "type": "red-900"
+      },
+      "path": [
+        "color",
+        "red-900"
+      ]
+    },
+    "red-700": {
+      "value": "#ff564e",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#ff564e",
+        "type": "color"
+      },
+      "name": "ColorRed700",
+      "attributes": {
+        "category": "color",
+        "type": "red-700"
+      },
+      "path": [
+        "color",
+        "red-700"
+      ]
+    },
+    "red-500": {
+      "value": "#ffafa2",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffafa2",
+        "type": "color"
+      },
+      "name": "ColorRed500",
+      "attributes": {
+        "category": "color",
+        "type": "red-500"
+      },
+      "path": [
+        "color",
+        "red-500"
+      ]
+    },
+    "red-300": {
+      "value": "#ffefec",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffefec",
+        "type": "color"
+      },
+      "name": "ColorRed300",
+      "attributes": {
+        "category": "color",
+        "type": "red-300"
+      },
+      "path": [
+        "color",
+        "red-300"
+      ]
+    },
+    "blue-900": {
+      "value": "#0044b2",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#0044b2",
+        "type": "color"
+      },
+      "name": "ColorBlue900",
+      "attributes": {
+        "category": "color",
+        "type": "blue-900"
+      },
+      "path": [
+        "color",
+        "blue-900"
+      ]
+    },
+    "blue-700": {
+      "value": "#0062ff",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#0062ff",
+        "type": "color"
+      },
+      "name": "ColorBlue700",
+      "attributes": {
+        "category": "color",
+        "type": "blue-700"
+      },
+      "path": [
+        "color",
+        "blue-700"
+      ]
+    },
+    "blue-500": {
+      "value": "#b4d0e7",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#b4d0e7",
+        "type": "color"
+      },
+      "name": "ColorBlue500",
+      "attributes": {
+        "category": "color",
+        "type": "blue-500"
+      },
+      "path": [
+        "color",
+        "blue-500"
+      ]
+    },
+    "blue-300": {
+      "value": "#e4ecf3",
+      "type": "color",
+      "filePath": "tokens/input.json",
+      "isSource": true,
+      "original": {
+        "value": "#e4ecf3",
+        "type": "color"
+      },
+      "name": "ColorBlue300",
+      "attributes": {
+        "category": "color",
+        "type": "blue-300"
+      },
+      "path": [
+        "color",
+        "blue-300"
       ]
     }
   }

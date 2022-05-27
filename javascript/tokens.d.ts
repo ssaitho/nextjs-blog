@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 May 2022 07:59:50 GMT
+ * Generated on Fri, 27 May 2022 07:17:33 GMT
  */
 
 export default tokens;
@@ -22,19 +22,19 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
-  "color": {
-    "primary": DesignToken,
-    "danger": DesignToken,
-    "secondary": DesignToken,
-    "hogehoge": DesignToken,
-    "fugafuga": DesignToken,
-    "hoge-fuga": DesignToken,
-    "hoge_fuga": DesignToken,
-    "sandFuga": DesignToken,
-    "lime300": DesignToken,
-    "red-200": DesignToken
+  "theme": {
+    "bg": DesignToken,
+    "fg": DesignToken
   },
-  "size": {
-    "test2rem": DesignToken
+  "color": {
+    "ecforce-blue": DesignToken,
+    "red-900": DesignToken,
+    "red-700": DesignToken,
+    "red-500": DesignToken,
+    "red-300": DesignToken,
+    "blue-900": DesignToken,
+    "blue-700": DesignToken,
+    "blue-500": DesignToken,
+    "blue-300": DesignToken
   }
 }
