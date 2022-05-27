@@ -46,6 +46,21 @@ export default function Home({ allPostsData }) {
                 <p className='bg-fugafuga'>
                   fugafuga
                 </p>
+                <p className='bg-hoge-fuga'>
+                  hoge-fuga
+                </p>
+                <p className='bg-sand-fuga'>
+                  sand-fuga
+                </p>
+                <p className='bg-lime-300'>
+                  lime300
+                </p>
+                <p className='bg-red-200'>
+                  red-200
+                </p>
+                <p className='bg-red-300'>
+                  red-300
+                </p>
                 <p className='text-test-2-rem'>
                   font-size-12rem
                 </p>
