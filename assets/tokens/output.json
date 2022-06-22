@@ -6,5 +6,9 @@
   "white": {
     "value": "#ffffff",
     "type": "color"
+  },
+  "blue": {
+    "value": "#006eff",
+    "type": "color"
   }
 }
