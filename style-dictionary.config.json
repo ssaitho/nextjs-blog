@@ -1,0 +1,16 @@
+{
+  "source": ["tokens/output.json"],
+  "platforms": {
+    "css": {
+      "buildPath": "styles/",
+      "transformGroup": "scss",
+      "files": [{
+        "destination": "tokens.scss",
+        "format": "css/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    }
+  }
+}
