@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: contains(github.head_ref, 'add_tokens')
 
     steps:
       - uses: actions/checkout@v2
