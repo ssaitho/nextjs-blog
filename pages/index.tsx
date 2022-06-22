@@ -25,7 +25,8 @@ export default function Home({ allPostsData }) {
         </figure>
         <h2>Shinsuke Saito blogs test</h2>
         <p className=''>
-          Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.
+          Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of Tokyo.<br>
+          github actions test</br>
         </p>
       </section>
       <section className='mb-8'>
