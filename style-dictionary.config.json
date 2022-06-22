@@ -1,8 +1,8 @@
 {
-  "source": ["tokens/output.json"],
+  "source": ["assets/tokens/output.json"],
   "platforms": {
     "css": {
-      "buildPath": "styles/",
+      "buildPath": "assets/styles/",
       "transformGroup": "scss",
       "files": [{
         "destination": "tokens.scss",
