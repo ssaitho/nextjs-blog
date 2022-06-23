@@ -10,5 +10,9 @@
   "blue": {
     "value": "#006eff",
     "type": "color"
+  },
+  "red": {
+    "value": "#f00",
+    "type": "color"
   }
 }
