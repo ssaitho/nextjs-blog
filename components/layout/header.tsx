@@ -1,11 +1,11 @@
-import Link from "next/link"
-import component from '@ssaitho/react_ts_storybook';
+import Link from "next/link";
+// import component from "@ssaitho/react_ts_storybook";
 
 export default function Header() {
-
   return (
     <div>
-      <component.Header/>
+      {/* <component.Header/> */}
+      hoge
     </div>
     // <header>
     //   <nav className="bg-primary py-4">
@@ -14,5 +14,5 @@ export default function Header() {
     //     </div>
     //   </nav>
     // </header>
-  )
+  );
 }
