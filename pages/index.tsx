@@ -1,14 +1,18 @@
+import React from "react";
 import Layout from "../layout/layout";
 import { getSortedPostsData } from "../lib/posts";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Date from "../components/date";
-<<<<<<< HEAD
-import Button from "@ssaitho/react_ts_storybook";
-=======
-import { Button } from "@ssaitho/react_ts_storybook";
->>>>>>> a2f3e802880e0d513d2c73b0e259a28c145a1e34
+// import { Button } from "@ssaitho/react_ts_storybook";
+import { Button } from "@openameba/spindle-ui";
+import { TextButton } from "@openameba/spindle-ui";
+import {
+  BreadcrumbList,
+  BreadcrumbItem,
+} from "@openameba/spindle-ui/Breadcrumb";
+import { PrimaryButton } from "smarthr-ui";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -27,14 +31,7 @@ export default function Home({ allPostsData }) {
           <Image src="/images/prof_min.jpg" width={100} height={100} />
         </figure>
         <h2>Shinsuke Saito blogs test</h2>
-        <p className="">
-          Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of
-<<<<<<< HEAD
-          Tokyo.github actions test
-=======
-          Tokyo. github actions test
->>>>>>> a2f3e802880e0d513d2c73b0e259a28c145a1e34
-        </p>
+        <p>Hi, I'm Shinsuke Saito is a front-end engineer loves baseball of</p>
       </section>
       <section className="mb-8">
         <h2>Blog</h2>
@@ -52,11 +49,21 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-<<<<<<< HEAD
-      <Button>hogehoge</Button>
-=======
-      <Button label={"npmからインポートしたボタン"} />
->>>>>>> a2f3e802880e0d513d2c73b0e259a28c145a1e34
+      {/* <Button>hogehoge</Button> */}
+      <Button size="large" variant="contained">
+        Spindle
+      </Button>
+      <TextButton>Text Button</TextButton>
+
+      <BreadcrumbList>
+        <BreadcrumbItem href="#">Top</BreadcrumbItem>
+        <BreadcrumbItem href="#">Team</BreadcrumbItem>
+        <BreadcrumbItem href="#" current>
+          Amebaとは
+        </BreadcrumbItem>
+      </BreadcrumbList>
+
+      <PrimaryButton>Hello World</PrimaryButton>
     </Layout>
   );
 }
