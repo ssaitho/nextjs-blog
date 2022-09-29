@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Layout from "../layout/layout";
 import { getSortedPostsData } from "../lib/posts";
-import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Date from "../components/date";
-// import { Button } from "@ssaitho/react_ts_storybook";
-import { Button } from "@openameba/spindle-ui";
+import component from "@ssaitho/react_ts_storybook";
+// import { Button } from "@openameba/spindle-ui";
 import { TextButton } from "@openameba/spindle-ui";
 import {
   BreadcrumbList,
@@ -49,13 +48,13 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      {/* <Button>hogehoge</Button> */}
-      <Button size="large" variant="contained">
+      <component.Button>hogehoge</component.Button>
+      {/* <Button size="large" variant="contained">
         Spindle
-      </Button>
+      </Button> */}
       <TextButton>Text Button</TextButton>
 
-      <BreadcrumbList>
+      {/* <BreadcrumbList>
         <BreadcrumbItem href="#">Top</BreadcrumbItem>
         <BreadcrumbItem href="#">Team</BreadcrumbItem>
         <BreadcrumbItem href="#" current>
@@ -63,7 +62,7 @@ export default function Home({ allPostsData }) {
         </BreadcrumbItem>
       </BreadcrumbList>
 
-      <PrimaryButton>Hello World</PrimaryButton>
+      <PrimaryButton>Hello World</PrimaryButton> */}
     </Layout>
   );
 }
