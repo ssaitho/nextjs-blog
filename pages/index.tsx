@@ -4,7 +4,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Image from "next/image";
 import Date from "../components/date";
-import component from "@ssaitho/react_ts_storybook";
+import { Button } from "@ssaitho/react_ts_storybook";
 // import { Button } from "@openameba/spindle-ui";
 import { TextButton } from "@openameba/spindle-ui";
 import {
@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-      <component.Button>hogehoge</component.Button>
+      <Button>hogehoge</Button>
       {/* <Button size="large" variant="contained">
         Spindle
       </Button> */}

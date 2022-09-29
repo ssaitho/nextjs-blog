@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@openameba/spindle-ui": "^0.46.4",
-    "@ssaitho/react_ts_storybook": "^0.1.48",
+    "@ssaitho/react_ts_storybook": "^0.1.49",
     "date-fns": "^2.28.0",
     "eslint": "^8.0.1",
     "gray-matter": "^4.0.3",

@@ -1809,10 +1809,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@ssaitho/react_ts_storybook@^0.1.48":
-  version "0.1.48"
-  resolved "https://registry.yarnpkg.com/@ssaitho/react_ts_storybook/-/react_ts_storybook-0.1.48.tgz#b8d4a8d3febb765d1e708f1ef3e9421ab44faab9"
-  integrity sha512-H5wh2RqOCKdbpTC5k+A9/uwuFBX8WmE5ywOmwX+mcQ5xdc+uLmLKm3f0zUJjkMFizzrxNNwi6hnsK92Y9V04bA==
+"@ssaitho/react_ts_storybook@^0.1.49":
+  version "0.1.49"
+  resolved "https://registry.yarnpkg.com/@ssaitho/react_ts_storybook/-/react_ts_storybook-0.1.49.tgz#d304cebae727d009374ac8de249a749d4de9812e"
+  integrity sha512-kENhycvJFS5OkCkmBUhSXab036EYs3AzAmsfQ2PUDQ51O4AE0fyJ8uhVjZZDg2IBXDJgiFA7NJdSMI6B3ap0/Q==
   dependencies:
     "@babel/runtime" "^7.17.9"
     "@headlessui/react" "^1.6.6"
